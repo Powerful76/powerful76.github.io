@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>LS Analytics | Leroy Stewart</title>
 
 <style>
 
-body{
+*{
     margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
     font-family:Segoe UI, Arial, sans-serif;
     background:#0f172a;
     color:white;
@@ -20,17 +22,18 @@ body{
 }
 
 nav{
-    background:#111827;
+    background:#0b1220;
     padding:20px;
     text-align:center;
     position:sticky;
     top:0;
+    z-index:1000;
 }
 
 nav a{
     color:white;
     text-decoration:none;
-    margin:0 15px;
+    margin:0 20px;
     font-weight:bold;
 }
 
@@ -41,29 +44,27 @@ nav a:hover{
 .banner{
     width:100%;
     display:block;
-    margin:0;
-    padding:0;
 }
-
 
 .logo{
     width:150px;
     display:block;
-    margin:20px auto;
+    margin:30px auto;
 }
 
 .hero{
     text-align:center;
-    padding:40px;
+    padding:30px;
 }
 
 .hero h1{
+    font-size:48px;
     color:#d4af37;
-    font-size:50px;
 }
 
 .hero p{
     font-size:20px;
+    margin-top:10px;
 }
 
 .container{
@@ -74,23 +75,24 @@ nav a:hover{
 
 .card{
     background:#1e293b;
-    margin-bottom:25px;
     padding:25px;
     border-radius:12px;
+    margin-bottom:25px;
 }
 
 .card h2{
     color:#d4af37;
+    margin-bottom:15px;
 }
 
 .skills{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
     gap:15px;
 }
 
 .skill{
-    background:#0f172a;
+    background:#0b1220;
     padding:15px;
     border-radius:8px;
     text-align:center;
@@ -100,17 +102,18 @@ nav a:hover{
     display:inline-block;
     background:#d4af37;
     color:black;
-    padding:12px 25px;
     text-decoration:none;
-    border-radius:8px;
     font-weight:bold;
+    padding:12px 25px;
     margin:10px;
+    border-radius:8px;
 }
 
 footer{
+    background:#0b1220;
     text-align:center;
     padding:30px;
-    background:#111827;
+    margin-top:40px;
 }
 
 </style>
@@ -128,9 +131,9 @@ footer{
 
 <img src="Leroy Stewart LinkedIn Banner.png" class="banner">
 
-<img src="Leroy Stewart Business Logo.png" class="logo">
-
 <section class="hero">
+
+<img src="Leroy Stewart Business Logo.png" class="logo">
 
 <h1>Leroy Stewart</h1>
 
@@ -168,9 +171,11 @@ data analytics, business intelligence, market research,
 customer insights and stakeholder reporting.
 </p>
 
+<br>
+
 <p>
 Using SQL, Power BI, Excel, Tableau and Python,
-I help organisations transform data into actionable insights
+I help organisations transform data into actionable business insights
 that support decision-making and performance improvement.
 </p>
 
@@ -181,27 +186,36 @@ that support decision-making and performance improvement.
 <h2>Featured Projects</h2>
 
 <h3>Customer & Revenue Risk Analysis</h3>
+
 <p>
 Revenue forecasting, customer retention analysis,
 business stress testing and commercial decision support.
 </p>
 
+<br>
+
 <h3>Customer Journey Analytics</h3>
+
 <p>
-Funnel analysis, cohort analysis, customer retention reporting
-and A/B testing.
+Funnel analysis, retention reporting,
+cohort analysis and A/B testing.
 </p>
+
+<br>
 
 <h3>Operational Efficiency & SLA Review</h3>
+
 <p>
-Root cause analysis, staffing assessment,
-service management and KPI monitoring.
+KPI reporting, staffing assessment and root cause analysis.
 </p>
 
+<br>
+
 <h3>Adventure Works Business Intelligence</h3>
+
 <p>
-Executive Power BI dashboards,
-data modelling and SQL reporting.
+Executive reporting, Power BI dashboards,
+SQL analytics and data modelling.
 </p>
 
 </section>
@@ -218,7 +232,7 @@ data modelling and SQL reporting.
 
 <li>10+ Analytics & BI Tools Used</li>
 
-<li>6+ Portfolio Projects Completed</li>
+<li>6+ Portfolio Projects</li>
 
 </ul>
 
@@ -231,27 +245,16 @@ data modelling and SQL reporting.
 <div class="skills">
 
 <div class="skill">SQL</div>
-
 <div class="skill">Power BI</div>
-
 <div class="skill">Excel</div>
-
 <div class="skill">Python</div>
-
 <div class="skill">Tableau</div>
-
 <div class="skill">Business Analysis</div>
-
 <div class="skill">Business Intelligence</div>
-
 <div class="skill">Forecasting</div>
-
 <div class="skill">Customer Analytics</div>
-
 <div class="skill">Data Visualisation</div>
-
 <div class="skill">Market Research</div>
-
 <div class="skill">Stakeholder Engagement</div>
 
 </div>
@@ -262,13 +265,9 @@ data modelling and SQL reporting.
 
 <h2>Contact</h2>
 
-<p>
-📧 Leroyjstewart@outlook.com
-</p>
+<p>📧 Leroyjstewart@outlook.com</p>
 
-<p>
-📍 Nottingham, United Kingdom
-</p>
+<p>📍 Nottingham, United Kingdom</p>
 
 <p>
 GitHub:
@@ -291,5 +290,4 @@ linkedin.com/in/leroy-stewart-49a4b1232
 </footer>
 
 </body>
-
 </html>
