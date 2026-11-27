@@ -112,13 +112,28 @@ forecasting and stakeholder-focused reporting.
     grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
     gap:15px;
 }
-
 .skill{
-    background:#0b1220;
+    background:linear-gradient(
+        135deg,
+        #0B1220,
+        #172554
+    );
+    color:white;
+    font-weight:600;
     padding:15px;
-    border-radius:8px;
+    border-radius:12px;
     text-align:center;
+    border-left:4px solid #D4AF37;
 }
+.skill:hover{
+    background:linear-gradient(
+        135deg,
+        #172554,
+        #1E3A8A
+    );
+    transform:translateY(-3px);
+}
+
 
 .button{
     display:inline-block;
